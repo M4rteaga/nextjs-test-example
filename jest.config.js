@@ -13,7 +13,7 @@ const customJestConfig = {
 	// Runs special logic, such as cleaning up components
 	// when using React Testing Library and adds special
 	// extended assertions to Jest
-	setupFilesAfterEnv: [],
+	setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 
 	// Test spec file resolution pattern
 	// Matches parent folder `__tests__` and filename
